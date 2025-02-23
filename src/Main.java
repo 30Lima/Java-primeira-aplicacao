@@ -5,5 +5,6 @@ public class Main {
         System.out.println("Filme: Top Gun Maverick");
 
         int anoDeLancamento = 2022;
+        System.out.println("Ano de lançamento: " + anoDeLancamento);
     }
 }
