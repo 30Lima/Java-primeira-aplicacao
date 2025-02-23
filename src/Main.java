@@ -10,7 +10,7 @@ public class Main {
         double notaDoFilme = 8.1;
 
         //Média calculada com base nas notas da Jack, Paulo e Pedro
-        double media = (9.8 + 6.3 + 8.0) / 3;
+        double media = (9.8 + 6.3 + 8.0)/3;
         System.out.println(media);
         String sinopse;
         sinopse = """
@@ -20,5 +20,9 @@ public class Main {
                  Ano de lançamento
                 """ + anoDeLancamento;
         System.out.println(sinopse);
+
+        int classificacao; //Podemos fazer também int classificacao = (int) (media/2)
+        classificacao = (int) (media/2); //Casting explícito
+        System.out.println(classificacao);
     }
 }
