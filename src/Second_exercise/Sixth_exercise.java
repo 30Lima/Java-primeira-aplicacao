@@ -13,8 +13,9 @@ public class Sixth_exercise {
         double originalPrice = 300.50;
         double percentageDiscount = 10;
 
-        double value = originalPrice * percentageDiscount / 100;
+        double valueDiscount = originalPrice * percentageDiscount / 100;
+        double finishValue = originalPrice - valueDiscount;
 
-        System.out.println("Value with discount: " + value);
+        System.out.println("Value with discount: " + finishValue);
     }
 }
